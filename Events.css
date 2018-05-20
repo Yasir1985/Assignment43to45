@@ -1,0 +1,45 @@
+ .picbig{
+	 position:absolute;
+	 width:0px;
+	 transition:width 0.3s linear 0s;
+	 z-index:10;
+ }
+ .pic:hover + .picbig{
+	 width:250px;
+ }
+ figure{
+	 display:inline-block;
+	 cursor:pointer;
+	 margin-left:10%;
+	 
+	 }
+	 
+ h3{
+	 color:rgb(0, 128, 192);
+ }
+ figcaption{
+	 text-align:center;
+ }
+ 
+ table{
+	 margin:0;
+	 width:30%;
+	 margin-left:35%;
+	 border:2px solid black;
+	 border-spacing:0.5rem;
+	 border-collapse:collapse;
+	 
+	 
+	 
+ }
+ 
+ 
+ td{
+		 border:2px solid black;
+		 text-align:center;
+		 
+ }
+ th{
+	 background-color:yellow;
+	 font-size:18px;
+ }
